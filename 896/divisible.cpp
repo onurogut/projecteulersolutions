@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 
-// Bölünebilir olup olmadığını kontrol eden fonksiyon
 bool is_divisible(const std::vector<int>& arr) {
     for (size_t i = 0; i < arr.size(); ++i) {
         if (arr[i] % (i + 1) != 0) {
